@@ -1,0 +1,75 @@
+.container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 60%;
+    margin: auto;
+    padding-top: 5%;
+    
+
+}
+
+table, td, th{
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+    border-color: lightgray;
+    padding: 5px 15px ;
+
+}
+
+thead{
+    background-color: brown;
+    color: white;
+    
+}
+
+caption{
+    font-size: 25px;
+}
+
+tbody:hover{
+    background-color: rgb(221, 218, 218);
+}
+
+.goodmark{
+    background-color: green;
+    color: white;
+    font-size: 8px;
+    padding: 0.5px 3px;
+    border-radius: 2px;
+
+}
+
+.xmark{
+    background-color: red;
+    color: white;
+    font-size: 8px;
+    padding: 0.5px 3px;
+    border-radius: 2px;
+
+}
+
+
+
+
+.poor{
+    background-color: red;
+    color: white;
+    padding: 2px 0.1px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.exce{
+    background-color: green;
+    color: white;
+    padding: 2px 0.1px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.good{
+    background-color: rgb(240, 240, 4);
+    color: black;
+    padding: 2px 0.1px;
+    text-align: center;
+    border-radius: 4px;
+}
